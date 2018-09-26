@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TestAlertKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TestAlertKit.'
+  s.summary          = 'TestAlertKit pod use'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -20,12 +20,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
-  s.homepage         = 'https://github.com/1058070112@qq.com/TestAlertKit'
+                       
+  s.homepage         = 'https://genmy.github.io'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1058070112@qq.com' => '1058070112@qq.com' }
-  s.source           = { :git => 'https://github.com/1058070112@qq.com/TestAlertKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/genMY/TestAlertKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -35,8 +35,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'TestAlertKit' => ['TestAlertKit/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'TestAlertKit/Classes/*.h'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

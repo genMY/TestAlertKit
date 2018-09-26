@@ -7,6 +7,7 @@
 //
 
 #import "MMViewController.h"
+#import "MMAlertKit.h"
 
 @interface MMViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    MMAlertKit *alertKit = [[MMAlertKit alloc] init];
+    [alertKit testAlertView];
 }
 
 - (void)didReceiveMemoryWarning

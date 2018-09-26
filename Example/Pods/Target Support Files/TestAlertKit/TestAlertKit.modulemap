@@ -1,0 +1,6 @@
+framework module TestAlertKit {
+  umbrella header "TestAlertKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
